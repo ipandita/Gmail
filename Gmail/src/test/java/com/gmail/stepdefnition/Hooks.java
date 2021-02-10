@@ -21,7 +21,7 @@ public class Hooks extends Utility  {
 	@Before
 	public void launchbrowser() {
 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\hp\\eclipse-workspace\\Gmail\\exefiles\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\hp\\git\\repository\\Gmail\\exefiles\\chromedriver.exe");
 		 driverbase.driver=new ChromeDriver();
 		
 		
